@@ -26,9 +26,14 @@ arduino-garage-door-monitor
  Thanks to Nate's for the writeup at https://www.sparkfun.com/tutorials/309 with details on running 328P in low power mode.
 
  Circuit:
-  speaker on digital pin 8 (ideally via some sort of amplifier, I just used two TP C945 transistors)
-  green OK DOOR CLOSED LED on 7
-  red ALARM DOOR OPEN LED on 6
-  photoresistor on analog 5 to 5V
-  4.7K resistor on analog 5 to ground
-  infrared sensor E18-D80NK: green to ground, red to D1 pin #3 (NOT 5V), yellow: pullup 1K to 5V, digital out to D0 (pin 2)
+  * speaker on digital pin 8 (ideally via some sort of amplifier, I just used two TP C945 transistors)
+  
+  * green OK DOOR CLOSED LED on 7
+  
+  * red ALARM DOOR OPEN LED on 6
+  
+  * photoresistor on analog 5 to 5V
+  
+  * 4.7K resistor on analog 5 to ground
+  
+  * infrared sensor E18-D80NK: green to ground, red to D1 pin #3 (NOT 5V), yellow: pullup 1K to 5V, digital out to D0 (pin 2)
